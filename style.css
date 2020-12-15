@@ -35,3 +35,12 @@ h1{
     font-size:3rem;
     text-shadow: 2px 3px 10px #4b4b4b;
 }
+
+#buttonAPI{
+    background-color:rgb(124, 124, 124);
+    color: white;
+    margin-left: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
