@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bouman-Johnson-housing-project</title>
+</head>
+<body>
+    <h1>BeCode Real Estate</h1>
+    <div class="contenaire">
+        <div id="img"></div>
+        <div>
+            <form>
+                <!-- "required": ["area", "property-type", "rooms-number", "zip-code"], -->
+                <label for="name">Area </label><br>
+                <input type="text" name="name" id="area" required><br><br>
+
+                <label for="name">Choose your property-type </label>
+                <br><br>
+                
+                <input type="radio" id="property-type" name="property-type" value="apartement">
+                <label for="apartement">Apartement</label><br>
+                <input type="radio" id="property-type" name="property-type" value="house">
+        
+                <label for="house">House</label><br>
+                <input type="radio" id="property-type" name="property-type" value="other">
+                
+                <label for="other">Other</label><br><br>
+                
+                <label for="name">How many rooms</label>
+                <input type="text" name="name" id="rooms-number" required> <br>
+
+                <label for="name">Zip-Code </label><br>
+                <input type="text" name="name" id="postal-code" required> <br><br>
+
+                <input type="submit" id="buttonAPI" value="click here"> 
+
+            </form>
+        </div>
+    </div>   
+</body>
+<script src="index.js"></script>
+</html>
