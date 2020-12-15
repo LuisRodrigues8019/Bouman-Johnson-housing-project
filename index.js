@@ -8,7 +8,7 @@ const url = "http://roberta-eliza.herokuapp.com/predict"; // site that doesn’t
 let area= parseInt(document.getElementById("area").value);
 let room= parseInt(document.getElementById("rooms-number").value);
 let postal= parseInt(document.getElementById("postal-code").value);
-let house= document.querySelector('input[name="property-type"]:checked').value;
+let house= document.getElementById('property-type').value;
 
 console.log(area);
 console.log(room);

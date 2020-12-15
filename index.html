@@ -13,26 +13,25 @@
         <div>
             <form>
                 <!-- "required": ["area", "property-type", "rooms-number", "zip-code"], -->
-                <label for="name">Area </label><br>
-                <input type="text" name="name" id="area" required><br><br>
+                
+                <input type="number" name="name" id="area" placeholder="Area                          m2" required><br><br>
 
-                <label for="name">Choose your property-type </label>
+
+                <select id="property-type">
+                    <option value="type of property">Type of property</option>
+                    <option value="Apartment">Apartment</option>
+                    <option value="House">House</option>
+                    <option value="Other">Other</option>
+                </select>
                 <br><br>
-                
-                <input type="radio" id="property-type" name="property-type" value="apartement">
-                <label for="apartement">Apartement</label><br>
-                <input type="radio" id="property-type" name="property-type" value="house">
-        
-                <label for="house">House</label><br>
-                <input type="radio" id="property-type" name="property-type" value="other">
-                
-                <label for="other">Other</label><br><br>
-                
-                <label for="name">How many rooms</label>
-                <input type="text" name="name" id="rooms-number" required> <br>
 
-                <label for="name">Zip-Code </label><br>
-                <input type="text" name="name" id="postal-code" required> <br><br>
+                
+                
+               
+                <input type="number" name="name" id="rooms-number" placeholder="Rooms?" required> <br><br>
+
+                
+                <input type="number" name="name" id="postal-code" placeholder="Zip code" required> <br><br>
 
                 <input type="submit" id="buttonAPI" value="VALIDATE"> 
 
