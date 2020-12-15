@@ -11,7 +11,7 @@ The app Will be quite simple. It only needs Two things. First. A form. The form 
 
 ## Instructions & Objectives:
 
-Find instruction [here](https://github.com/becodeorg/BXL-Johnson-5.25/blob/master/Collaborations/house.md)
+Find instruction [here](https://luisrodrigues8019.github.io/Bouman-Johnson-housing-project/)
 
 ## My work on github:
 
