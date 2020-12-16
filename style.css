@@ -13,12 +13,15 @@ form{
     padding: 87px 0;
     margin: auto;
     text-align: center;
+    box-sizing: border-box;
+    height: 375px;
 }
 
 .contenaire{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+   
 }
 
 #img{
